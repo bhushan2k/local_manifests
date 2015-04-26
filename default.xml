@@ -3,7 +3,9 @@
 
 <!--
 <remote name="github" fetch="git://github.com"/>
+add above line if repo sync gives "fatal: remote github not defined in .../.repo/manifest.xml" error.
 -->
+
 <!-- armani Specific -->
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
 <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.1" />
